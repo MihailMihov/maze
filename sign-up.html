@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create an account | Maze Solver</title>
+
+    <!-- Pull Firebase SDKs -->
+    <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"></script>
+    
+    <!-- Initialize Firebase -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <script defer src="/sign-up.js"></script>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <div>
+      <div>
+        Email: <input id="email" type="email"></input>
+      </div>
+      <div>
+        Password: <input id="password" type="password"></input>
+      </div>
+      <div>
+        Confirm Password: <input id="password-confirmation" type="password"></input>
+      </div>
+      <button id="sign-up"> Sign Up </button>
+      <div>
+        <a href="https://maze-fc864.firebaseapp.com/sign-in.html"> Already have an account? </a>
+      </div>
+    </div>
+  </body>
+</html>
